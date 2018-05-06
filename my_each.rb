@@ -1,4 +1,4 @@
-def my_each(word)do |x|
+def my_each(word) do |x|
  i = 0 
  while i < word.length 
    puts "#{x}"
