@@ -4,4 +4,6 @@ def my_each(word)
    puts "#{x}"
    yield (word [i])
    i += 1
+ end
+ word
 end
