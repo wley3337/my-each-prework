@@ -1,9 +1,9 @@
-def my_each(word) do |x|
+def my_each(word) { |x|
  i = 0 
  while i < word.length 
    puts "#{x}"
    yield (word [i])
    i += 1
- end
+ end}
  word 
 end
